@@ -20,11 +20,11 @@ export default function BootstrapNavbar(){
                       className="mr-auto"
                       fill
                       variant="tabs"
-                      defaultActiveKey="/table"
+                      defaultActiveKey="/"
                       onSelect={selectedKey => setDisplayContent((selectedKey === '/chart')? MyChart : MyTable)}
                     >
                       <Nav.Item>
-                        <Nav.Link href="/table">Table</Nav.Link>
+                        <Nav.Link href="/">Table</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="/chart">Chart</Nav.Link>
