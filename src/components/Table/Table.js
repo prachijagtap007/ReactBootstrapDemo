@@ -1,8 +1,11 @@
 import React from 'react'
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import BootstrapTable from 'react-bootstrap-table-next';
+import ToolkitProvider, { ColumnToggle } from 'react-bootstrap-table2-toolkit';
 
 export default function MyTable() {
+
+const { ToggleList } = ColumnToggle;  
 const products = [ {id: 101, name: "Chips", price:200},{id: 102, name: "Chips", price:200}];
 const columns = [{
     dataField: 'id',
