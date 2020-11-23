@@ -23,7 +23,7 @@ const columns = [{
     order: 'desc'
   }];
   
-const CaptionElement = () => <h3 style={{ borderRadius: '0.25em', textAlign: 'center', color: 'black', border: '1px solid purple', padding: '0.5em' }}>React bootstrap table next</h3>;
+const CaptionElement = () => <h3 style={{ borderRadius: '0.25em', textAlign: 'grey', color: 'black', border: '1px solid grey', padding: '0.5em' }}>React bootstrap table next</h3>;
 
 return (<div>
 <a href="https://openbase.io/js/react-bootstrap-table-next" target="_blank">Check package performance</a>
