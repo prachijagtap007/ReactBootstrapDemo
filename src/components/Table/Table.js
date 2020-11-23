@@ -25,7 +25,7 @@ const columns = [{
   
 const CaptionElement = () => <h3 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid gray', padding: '0.5em' }}>React bootstrap table next</h3>;
 
-return (<div>
+return (<div className="container">
 <a href="https://openbase.io/js/react-bootstrap-table-next" target="_blank">Check package performance</a>
 <BootstrapTable
   bootstrap4
