@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactBootstrapDemo/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/ReactBootstrapDemo/static/js/main.18d710e2.chunk.js",
-    "main.js.map": "/ReactBootstrapDemo/static/js/main.18d710e2.chunk.js.map",
+    "main.js": "/ReactBootstrapDemo/static/js/main.71589efb.chunk.js",
+    "main.js.map": "/ReactBootstrapDemo/static/js/main.71589efb.chunk.js.map",
     "runtime-main.js": "/ReactBootstrapDemo/static/js/runtime-main.e0f49b9f.js",
     "runtime-main.js.map": "/ReactBootstrapDemo/static/js/runtime-main.e0f49b9f.js.map",
     "static/css/2.73eb3e10.chunk.css": "/ReactBootstrapDemo/static/css/2.73eb3e10.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.73eb3e10.chunk.css",
     "static/js/2.b82736d8.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.18d710e2.chunk.js"
+    "static/js/main.71589efb.chunk.js"
   ]
 }
