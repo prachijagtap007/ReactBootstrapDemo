@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/prachijagtap007/ReactBootstrapDemo.git/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/prachijagtap007/ReactBootstrapDemo.git/static/js/main.78a82642.chunk.js",
+    "main.js.map": "/prachijagtap007/ReactBootstrapDemo.git/static/js/main.78a82642.chunk.js.map",
+    "runtime-main.js": "/prachijagtap007/ReactBootstrapDemo.git/static/js/runtime-main.5545c59e.js",
+    "runtime-main.js.map": "/prachijagtap007/ReactBootstrapDemo.git/static/js/runtime-main.5545c59e.js.map",
+    "static/css/2.73eb3e10.chunk.css": "/prachijagtap007/ReactBootstrapDemo.git/static/css/2.73eb3e10.chunk.css",
+    "static/js/2.b82736d8.chunk.js": "/prachijagtap007/ReactBootstrapDemo.git/static/js/2.b82736d8.chunk.js",
+    "static/js/2.b82736d8.chunk.js.map": "/prachijagtap007/ReactBootstrapDemo.git/static/js/2.b82736d8.chunk.js.map",
+    "static/js/3.ae518f6e.chunk.js": "/prachijagtap007/ReactBootstrapDemo.git/static/js/3.ae518f6e.chunk.js",
+    "static/js/3.ae518f6e.chunk.js.map": "/prachijagtap007/ReactBootstrapDemo.git/static/js/3.ae518f6e.chunk.js.map",
+    "index.html": "/prachijagtap007/ReactBootstrapDemo.git/index.html",
+    "static/css/2.73eb3e10.chunk.css.map": "/prachijagtap007/ReactBootstrapDemo.git/static/css/2.73eb3e10.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/prachijagtap007/ReactBootstrapDemo.git/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b82736d8.chunk.js.LICENSE.txt": "/prachijagtap007/ReactBootstrapDemo.git/static/js/2.b82736d8.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/prachijagtap007/ReactBootstrapDemo.git/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5545c59e.js",
+    "static/css/2.73eb3e10.chunk.css",
+    "static/js/2.b82736d8.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.78a82642.chunk.js"
+  ]
+}
