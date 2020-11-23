@@ -24,7 +24,7 @@ export default function BootstrapNavbar(){
                       onSelect={selectedKey => setDisplayContent((selectedKey === '/chart')? MyChart : MyTable)}
                     >
                       <Nav.Item>
-                        <Nav.Link href="/">Table</Nav.Link>
+                        <Nav.Link eventKey="/table">Table</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="/chart">Chart</Nav.Link>
