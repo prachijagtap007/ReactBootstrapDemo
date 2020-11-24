@@ -45,7 +45,7 @@ export default function MyChart() {
     width: 500,
     title: {
       text: "Bar Chart",
-      font: {y
+      font: {
         family: "Times new Roman, monospace",
         size: 24,
       },
