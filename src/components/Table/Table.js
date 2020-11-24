@@ -47,9 +47,6 @@ const columns = [{
     dataField: 'ToDate',
     text: 'To date',
     sort: true
-  }, {
-    dataField: 'Comment',
-    text: 'Comment'
   }];
   
   const defaultSorted = [{
@@ -60,7 +57,9 @@ const columns = [{
 const CaptionElement = () => <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid gray', padding: '0.5em' }}>Software usage Report</h5>;
 
 return (<div className="container">
-<a href="https://openbase.io/js/react-bootstrap-table-next" target="_blank">Check package performance</a>
+  <a href="https://openbase.io/js/react-bootstrap-table-next" target="_blank">Check package performance</a>
+<div className="row">
+<div className="col-lg-6">
 <BootstrapTable
   bootstrap4
   keyField="id"
@@ -69,6 +68,18 @@ return (<div className="container">
   defaultSorted={ defaultSorted } 
   caption={<CaptionElement />} 
 />
+</div>
+<div className="col-lg-6">
+  <BootstrapTable
+  bootstrap4
+  keyField="id"
+  data={ products }
+  columns={ columns }
+  defaultSorted={ defaultSorted } 
+  caption={<CaptionElement />} 
+/>
+</div>
+</div>
 </div>)
     
 }
