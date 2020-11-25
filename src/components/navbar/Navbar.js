@@ -1,4 +1,5 @@
 import React,{ useState } from 'react'
+import './Navbar.css';
 import { Navbar,Nav} from 'react-bootstrap'
 import MyTable from '../Table/Table.js'
 import MyChart from '../Chart/Chart.js'

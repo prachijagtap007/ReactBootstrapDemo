@@ -10,12 +10,7 @@ const products = [ {id: 101, name: "East", TokensGranted:15,TokenDenied:5, NoOfU
 {id: 102, name: "Enforesys",TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"},
 {id: 103, name: "Solara", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"},
 {id: 104, name: "Compass",TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"}, 
-{id: 105, name: "PTS", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"},
-{id: 106, name: "East", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"},
-{id: 107, name: "Enforesys",TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"},
-{id: 108, name: "Solara", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"},
-{id: 109, name: "Compass",TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"}, 
-{id: 110, name: "PTS", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"}];
+{id: 105, name: "PTS", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"}];
 const columns = [{
     dataField: 'id',
     text: 'Client ID',
@@ -58,6 +53,28 @@ const CaptionElement = () => <h5 style={{ borderRadius: '0.25em', textAlign:'cen
 
 return (<div className="container">
   <a href="https://openbase.io/js/react-bootstrap-table-next" target="_blank">Check package performance</a>
+<div className="row">
+<div className="col-lg-6">
+<BootstrapTable
+  bootstrap4
+  keyField="id"
+  data={ products }
+  columns={ columns }
+  defaultSorted={ defaultSorted } 
+  caption={<CaptionElement />} 
+/>
+</div>
+<div className="col-lg-6">
+  <BootstrapTable
+  bootstrap4
+  keyField="id"
+  data={ products }
+  columns={ columns }
+  defaultSorted={ defaultSorted } 
+  caption={<CaptionElement />} 
+/>
+</div>
+</div>
 <div className="row">
 <div className="col-lg-6">
 <BootstrapTable
