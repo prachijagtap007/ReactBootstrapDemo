@@ -13,8 +13,8 @@ export default function BootstrapNavbar(){
           <div>
             <div className="row">
               <div className="col-md-12">
-                <Navbar bg="info" variant="light" expand="lg" sticky="top">
-                  <Navbar.Brand href="#home">React Bootstrap Demo</Navbar.Brand>
+                <Navbar style={{background:"white", borderBottom:"1px solid rgba(0,82,156,.3)"}} variant="light" expand="lg" sticky="top">
+                  <Navbar.Brand href="#home" style={{color:"rgba(0,82,156,1)"}}>Demo</Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav

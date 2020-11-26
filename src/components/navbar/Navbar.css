@@ -1,4 +1,10 @@
 body{
     font-family: 'Times New Roman', Times, serif !important;
-    font-size: small !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    background: #f1f5f8!important;   
+}
+
+.col {
+    background-color: white;
 }
