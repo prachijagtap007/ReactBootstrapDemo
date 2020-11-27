@@ -12,9 +12,40 @@ body{
 th{
     padding-top: 2px !important;
     padding-bottom: 0px !important;
+    background-color: rgba(0,82,156,0.3) !important;
 }
 
 td{
     padding-top: 2px !important;
     padding-bottom: 0px !important;
+}
+
+.table{
+    border: 1px solid  rgba(0,82,156,1) !important;
+    color: darkslategrey !important;
+}
+
+.nav-link{
+    color: darkslategrey !important;
+}
+
+.btn{
+    border: 1px solid  rgba(0,82,156,0.1) !important;
+    color: darkslategrey !important;
+    background-color: rgba(0,82,156,0.3) !important; 
+}
+
+.btn-primary:not(:disabled):not(.disabled).active
+{
+    background-color: rgba(0,82,156,0.3) !important;
+}
+
+.btn-primary:focus, .btn-primary
+{
+    background-color: rgba(0,82,156,0.1) !important; 
+}
+
+.search-label
+{
+    margin-right: 5px !important;
 }
