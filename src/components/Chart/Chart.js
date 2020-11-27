@@ -129,10 +129,7 @@ export default function MyChart() {
         };
   return (
     <div>
-      <a href="https://openbase.io/js/react-plotly.js" target="_blank">
-        Check package performance
-      </a>
-      <Row>
+      <Row className="mt-4">
 
         {/* bar chart */}
         <Col className="sm">

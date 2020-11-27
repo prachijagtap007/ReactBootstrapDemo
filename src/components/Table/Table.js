@@ -52,12 +52,13 @@ const columns = [{
   
 const selectRow = {
   mode: 'radio',
-  clickToSelect: true
+  clickToSelect: true,
+  bgColor: '#00BFFF'
 };
 
 return (<div className="container">
-  <a href="https://openbase.io/js/react-bootstrap-table-next" target="_blank">Check package performance</a>
-<div className="row">
+  <br></br>
+ <div className="row">
 <div className="col mb-4 pt-2 pb-2">
 <ToolkitProvider
   keyField="id"
@@ -68,11 +69,13 @@ return (<div className="container">
   {
     props => (
       <div>
-        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em' }}>Software usage Report I</h5>
+        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em' }}>Software Usage Report I</h5>
         <SearchBar { ...props.searchProps } />
         <ClearSearchButton { ...props.searchProps } />
         <BootstrapTable
+        bootstrap4
           { ...props.baseProps }
+          selectRow={ selectRow }
         />
         <ExportCSVButton { ...props.csvProps }>Export CSV!!</ExportCSVButton>
       </div>
@@ -92,7 +95,7 @@ return (<div className="container">
   {
     props => (
       <div>
-        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em' }}>Software usage Report II</h5>
+        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em' }}>Software Usage Report II</h5>
         <ToggleList { ...props.columnToggleProps } />
         <hr />
         <BootstrapTable
