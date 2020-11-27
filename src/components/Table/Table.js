@@ -69,7 +69,7 @@ return (<div className="container">
   {
     props => (
       <div>
-        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em' }}>Software Usage Report I</h5>
+        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'white', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em',backgroundColor: 'rgba(0,82,156,0.5)'  }}>Software Usage Report I</h5>
         <SearchBar { ...props.searchProps } />
         <ClearSearchButton { ...props.searchProps } />
         <BootstrapTable
@@ -95,7 +95,7 @@ return (<div className="container">
   {
     props => (
       <div>
-        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'gray', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em' }}>Software Usage Report II</h5>
+        <h5 style={{ borderRadius: '0.25em', textAlign:'center', color:'white', border: '1px solid  rgba(0,82,156,.3)', padding: '0.5em',backgroundColor: 'rgba(0,82,156,0.5)'  }}>Software Usage Report II</h5>
         <ToggleList { ...props.columnToggleProps } />
         <hr />
         <BootstrapTable
