@@ -8,3 +8,13 @@ body{
 .col {
     background-color: white;
 }
+
+th{
+    padding-top: 2px !important;
+    padding-bottom: 0px !important;
+}
+
+td{
+    padding-top: 2px !important;
+    padding-bottom: 0px !important;
+}
