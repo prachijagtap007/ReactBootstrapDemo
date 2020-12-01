@@ -4,6 +4,10 @@ import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider, { ColumnToggle, Search, CSVExport } from 'react-bootstrap-table2-toolkit';
 import cellEditFactory from 'react-bootstrap-table2-editor';
 import paginationFactory from 'react-bootstrap-table2-paginator';
+import filterFactory, { textFilter } from 'react-bootstrap-table2-filter';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css"
+
 
 export default function MyTable() {
 
@@ -41,13 +45,24 @@ const products = [ {id: 101, name: "East", TokensGranted:15,TokenDenied:5, NoOfU
 {id: 108, name: "Solara", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"},
 {id: 109, name: "Compass",TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"}, 
 {id: 110, name: "PTS", TokensGranted:15,TokenDenied:5, NoOfUsers:20,UsageTime:1200, FromDate: "12-01-2019", ToDate:"12-01-2020", Comment:"new company"}];
+
+const selectOptions = {
+  'East': 'East',
+  'Enforesys': 'Enforesys',
+  'Solara': 'Solara',
+  'Compass': 'Compass',
+  'PTS': 'PTS'
+};
+
 const columns = [{
     dataField: 'id',
     text: 'Client ID',
     sort: true
   }, {
     dataField: 'name',
-    text: 'Software Name'
+    text: 'Software Name',
+    formatter: cell => selectOptions[cell],
+    filter: textFilter()
   }, {
     dataField: 'TokensGranted',
     text: 'No of licenses Granted'
@@ -111,6 +126,7 @@ return (<div className="container">
           { ...props.baseProps }
           selectRow={ selectRow }
           expandRow={ expandRow }
+          filter={ filterFactory() }
         />
         <ExportCSVButton { ...props.csvProps }>Export CSV!!</ExportCSVButton>
       </div>
@@ -138,6 +154,7 @@ return (<div className="container">
           
           cellEdit={ cellEditFactory({ mode: 'click' }) }
           pagination={ paginationFactory() }
+          filter={ filterFactory() }
         />
       </div>
     )
@@ -148,4 +165,3 @@ return (<div className="container">
 </div>)
     
 }
-
