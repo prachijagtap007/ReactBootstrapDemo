@@ -30,11 +30,6 @@ export default function BootstrapNavbar(){
                       <Nav.Item>
                         <Nav.Link eventKey="/chart">Chart</Nav.Link>
                       </Nav.Item>
-                      <NavDropdown className="justify-content-left" title="Packages" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="https://openbase.io/js/react-bootstrap-table-next" target="_blank">React-bootstrap-table-next</NavDropdown.Item>
-                      <NavDropdown.Divider />
-                      <NavDropdown.Item href="https://openbase.io/js/react-plotly.js" target="_blank">React-plotly</NavDropdown.Item>
-                    </NavDropdown>
                     </Nav>
                   </Navbar.Collapse>
                 </Navbar>
