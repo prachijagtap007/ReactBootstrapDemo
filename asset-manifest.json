@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ReactBootstrapDemo/static/css/main.89375ae7.chunk.css",
-    "main.js": "/ReactBootstrapDemo/static/js/main.035ceeb6.chunk.js",
-    "main.js.map": "/ReactBootstrapDemo/static/js/main.035ceeb6.chunk.js.map",
-    "runtime-main.js": "/ReactBootstrapDemo/static/js/runtime-main.3b15b11a.js",
-    "runtime-main.js.map": "/ReactBootstrapDemo/static/js/runtime-main.3b15b11a.js.map",
-    "static/css/2.73eb3e10.chunk.css": "/ReactBootstrapDemo/static/css/2.73eb3e10.chunk.css",
-    "static/js/2.87a2e3f4.chunk.js": "/ReactBootstrapDemo/static/js/2.87a2e3f4.chunk.js",
-    "static/js/2.87a2e3f4.chunk.js.map": "/ReactBootstrapDemo/static/js/2.87a2e3f4.chunk.js.map",
-    "static/js/3.9479ed1f.chunk.js": "/ReactBootstrapDemo/static/js/3.9479ed1f.chunk.js",
-    "static/js/3.9479ed1f.chunk.js.map": "/ReactBootstrapDemo/static/js/3.9479ed1f.chunk.js.map",
+    "main.css": "/ReactBootstrapDemo/static/css/main.9708f4da.chunk.css",
+    "main.js": "/ReactBootstrapDemo/static/js/main.b75b852f.chunk.js",
+    "main.js.map": "/ReactBootstrapDemo/static/js/main.b75b852f.chunk.js.map",
+    "runtime-main.js": "/ReactBootstrapDemo/static/js/runtime-main.8236c89a.js",
+    "runtime-main.js.map": "/ReactBootstrapDemo/static/js/runtime-main.8236c89a.js.map",
+    "static/css/2.4ca14ed4.chunk.css": "/ReactBootstrapDemo/static/css/2.4ca14ed4.chunk.css",
+    "static/js/2.d9781376.chunk.js": "/ReactBootstrapDemo/static/js/2.d9781376.chunk.js",
+    "static/js/2.d9781376.chunk.js.map": "/ReactBootstrapDemo/static/js/2.d9781376.chunk.js.map",
+    "static/js/3.a735738e.chunk.js": "/ReactBootstrapDemo/static/js/3.a735738e.chunk.js",
+    "static/js/3.a735738e.chunk.js.map": "/ReactBootstrapDemo/static/js/3.a735738e.chunk.js.map",
     "index.html": "/ReactBootstrapDemo/index.html",
-    "static/css/2.73eb3e10.chunk.css.map": "/ReactBootstrapDemo/static/css/2.73eb3e10.chunk.css.map",
-    "static/css/main.89375ae7.chunk.css.map": "/ReactBootstrapDemo/static/css/main.89375ae7.chunk.css.map",
-    "static/js/2.87a2e3f4.chunk.js.LICENSE.txt": "/ReactBootstrapDemo/static/js/2.87a2e3f4.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/ReactBootstrapDemo/static/media/logo.103b5fa1.svg"
+    "static/css/2.4ca14ed4.chunk.css.map": "/ReactBootstrapDemo/static/css/2.4ca14ed4.chunk.css.map",
+    "static/css/main.9708f4da.chunk.css.map": "/ReactBootstrapDemo/static/css/main.9708f4da.chunk.css.map",
+    "static/js/2.d9781376.chunk.js.LICENSE.txt": "/ReactBootstrapDemo/static/js/2.d9781376.chunk.js.LICENSE.txt",
+    "static/media/logo.2d27ead7.svg": "/ReactBootstrapDemo/static/media/logo.2d27ead7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b15b11a.js",
-    "static/css/2.73eb3e10.chunk.css",
-    "static/js/2.87a2e3f4.chunk.js",
-    "static/css/main.89375ae7.chunk.css",
-    "static/js/main.035ceeb6.chunk.js"
+    "static/js/runtime-main.8236c89a.js",
+    "static/css/2.4ca14ed4.chunk.css",
+    "static/js/2.d9781376.chunk.js",
+    "static/css/main.9708f4da.chunk.css",
+    "static/js/main.b75b852f.chunk.js"
   ]
 }
